@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #caf0f8;
+}
+
+h1{
+    color: #03045e;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    object-fit: fill;
+    border-radius: 50%;
+}
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    border: 20px solid white;
+}
+
+.scoreboard{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #03045e;
+}
+#userpara{
+    font-size: 3rem;
+}
+#comppara{
+    font-size: 3rem;
+}
+#msgcontain{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+#msg{
+    background-color: #03045e;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #caf0f8;
+}
+#resetgame{
+    background-color: #03045e;
+    padding: 1rem;
+    border-radius: 2rem;
+    color: #caf0f8;
+    display: inline;
+}
